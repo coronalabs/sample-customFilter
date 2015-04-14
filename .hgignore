@@ -1,0 +1,35 @@
+syntax: glob
+
+# Backup files left behind by Emacs
+*~
+
+# Lock files used by Emacs
+# Notice that the "#" char is escaped
+.\#*
+
+# Temp files used by vim
+.*.swp
+
+# Hidden files used by the Finder in MacOS
+.DS_Store
+.Trashes
+.com.apple.timemachine.supported
+.fseventsd/*
+.TemporaryItems/*
+Desktop DB
+Desktop DF
+
+# Build files
+**/build/**
+*.pbxuser
+*.perspective*
+*.mode1
+*.mode1v3
+*.orig
+
+sdk/Corona/**
+
+# Symlink that will change all the time
+platform/tests/assets
+SampleCode/Interface/MultitouchFingers/build.settings.not
+SampleCode/Interface/Orientation/build.settings
